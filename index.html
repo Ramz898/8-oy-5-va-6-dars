@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="app"> 
+        <h1>TODO LIST</h1> 
+ 
+        <!-- Верхняя панель --> 
+        <div class="top-panel"> 
+            <input type="text" id="taskInput" placeholder="Enter a note..."> 
+            <button id="addTaskBtn">SEND</button> 
+            <button id="themeBtn">🌙</button> 
+        </div> 
+ 
+        <!-- Список задач --> 
+        <ul id="todoList"> 
+            <li> 
+                <input type="checkbox" class="taskCheckbox"> 
+                <span>NOTE #1</span> 
+                <button class="deleteBtn">❌</button> 
+            </li> 
+            <li> 
+                <input type="checkbox" class="taskCheckbox"> 
+                <span>NOTE #2</span> 
+                <button class="deleteBtn">❌</button> 
+            </li> 
+        </ul> 
+    </div> 
+
+</body>
+<script src="script.js"></script>
+</html>
